@@ -1,0 +1,14 @@
+{
+    "id": "{FF28E5FF-27E5-AAF9-28C8-B99A707756E9}",
+    "name": "RoomcontrolerHeating",
+    "type": 3,
+    "vendor": "J.H. Artworks",
+    "aliases":
+    [
+    ],
+    "url": "https://jh-artworks.com",
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "RCH"
+}
