@@ -86,18 +86,6 @@ class RoomcontrolerHeating extends IPSModule {
                 $varid = $this->GetIDForIdent($Ident);
                 SetValue($varid, $Value);
 
-                $comfortId  = $this->ReadPropertyInteger("PropertyComforttemp");
-                $reduceId  = $this->ReadPropertyInteger("PropertyReducetemp");
-
-
-                if (IPS_VariableExists($comfortId)){
-                    RequestAction($comfortId,$this->GetValue("Comforttemp"));
-                }
-                
-                if (IPS_VariableExists($reduceId)){
-                    RequestAction($reduceId,$this->GetValue("Reducetemp"));
-                }
-
                 
                 $this->controlRoom();
     }

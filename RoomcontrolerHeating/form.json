@@ -1,13 +1,13 @@
 {
     "elements":
     [
-        { "type": "SelectVariable", "name": "PropertyComforttemp", "caption": "Komforttemperatur", "validVariableTypes": [2], "requiredAction": 1},
-        { "type": "SelectVariable", "name": "PropertyReducetemp", "caption": "Absenktemperatur", "validVariableTypes": [2], "requiredAction": 1},
+
         { "type": "SelectVariable", "name": "PropertyCalctemp", "caption": "Sollwert errechnet", "validVariableTypes": [2], "requiredAction": 1}
 
     ],
     "actions":
     [
+
     ],
     "status":
     [
